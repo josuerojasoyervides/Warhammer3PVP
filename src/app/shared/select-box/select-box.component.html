@@ -1,0 +1,4 @@
+<h3 class="select_label">Choose a Race:</h3>
+<select [(ngModel)]="selected_id">
+  <option *ngFor="let race of races" [value]="race.id"> {{ race.name }} </option>
+</select>
