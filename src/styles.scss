@@ -13,16 +13,16 @@ body {
     }
     h3{
         color: white;
-        font-size: clamp(1.5rem, 1.5vw, 5rem) !important;
-        line-height: clamp(5px, 0vw, 2rem) !important;
+        font-size: clamp(1.5rem, 1vw, 5rem) !important;
+        line-height: clamp(5px, 1vw, 2rem) !important;
     }
     label {
         color: white;
-        font-size: clamp(1.5rem, 1.5vw, 5rem) !important;
+        font-size: clamp(1.5rem, 1vw, 5rem) !important;
     }
     p {
         color: white;
-        font-size: clamp(1.5rem, 1.5vw, 5rem) !important;
+        font-size: clamp(1.5rem, 1vw, 5rem) !important;
         line-height: clamp(5px, 0vw, 2rem) !important;
     }
     select {

@@ -4,8 +4,8 @@ import { game_dlcs } from './game_dlcs';
 export const games: IGame[] = [
     {
         id: 1,
-        game_name: 'Total War: Warhammer',
-        game_dlcs: [
+        gameName: 'Total War: Warhammer',
+        gameDlcs: [
             game_dlcs[1],
             game_dlcs[2],
             game_dlcs[3],
@@ -31,8 +31,8 @@ export const games: IGame[] = [
     },
     {
         id: 2,
-        game_name: 'Total War: Warhammer II',
-        game_dlcs: [
+        gameName: 'Total War: Warhammer II',
+        gameDlcs: [
             game_dlcs[22],
             game_dlcs[23],
             game_dlcs[24],
@@ -77,7 +77,7 @@ export const games: IGame[] = [
     },
     {
         id: 3,
-        game_name: 'Total War: Warhammer III',
-        game_dlcs: [],
+        gameName: 'Total War: Warhammer III',
+        gameDlcs: [],
     },
 ]

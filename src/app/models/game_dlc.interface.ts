@@ -1,8 +1,8 @@
 import { IFaction } from "./factions.interface";
 
-export interface IGame_DLC {
+export interface IGameDlc {
         id: number
-        dlc_name: string
+        dlcName: string
         factions: IFaction[]
         date: Date
         type: string,

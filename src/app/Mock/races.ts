@@ -6,8 +6,8 @@ export const races: IRace[] = [
         name: "Beastmen",
         playstyle: "Rush",
         factions: [],
-        image_path: 'assets/gifs/beastmen.webp',
-        race_military: {
+        imagePath: 'assets/gifs/beastmen.webp',
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -15,8 +15,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         },
@@ -27,8 +27,8 @@ export const races: IRace[] = [
         name: "Bretonia",
         playstyle: "Hybrid",
         factions: [],
-        image_path: "assets/gifs/bretonia.webp",
-        race_military: {
+        imagePath: "assets/gifs/bretonia.webp",
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -36,8 +36,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         }
@@ -47,8 +47,8 @@ export const races: IRace[] = [
         name: "Cathay",
         playstyle: "Defensive",
         factions: [],
-        image_path: "assets/gifs/cathay.webp",
-        race_military: {
+        imagePath: "assets/gifs/cathay.webp",
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -56,8 +56,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         }
@@ -67,8 +67,8 @@ export const races: IRace[] = [
         name: "Chaos Dwarfs",
         playstyle: "Hybrid",
         factions: [],
-        image_path: "assets/gifs/chaos_dwarfs.webp",
-        race_military: {
+        imagePath: "assets/gifs/chaos_dwarfs.webp",
+        raceMilitary: {
             archery: 2,
             antilarge: 5,
             artillery: 5,
@@ -76,8 +76,8 @@ export const races: IRace[] = [
             magic: 4,
             monsters: 4,
             missiles: 5,
-            flying_units: 0,
-            flying_monsters: 5,
+            flyingUnits: 0,
+            flyingMonsters: 5,
             frontline: 5,
             swordsmen: 0,
         }
@@ -87,8 +87,8 @@ export const races: IRace[] = [
         name: "Dark elves",
         playstyle: "Hybrid",
         factions: [],
-        image_path: "assets/gifs/dark_elves.webp",
-        race_military: {
+        imagePath: "assets/gifs/dark_elves.webp",
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -96,8 +96,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         }
@@ -107,8 +107,8 @@ export const races: IRace[] = [
         name: "Dwarfs",
         playstyle: "Defensive",
         factions: [],
-        image_path: "assets/gifs/dwarfs.webp",
-        race_military: {
+        imagePath: "assets/gifs/dwarfs.webp",
+        raceMilitary: {
             archery: 4,
             antilarge: 5,
             artillery: 5,
@@ -116,8 +116,8 @@ export const races: IRace[] = [
             magic: 3,
             monsters: 0,
             missiles: 5,
-            flying_units: 0,
-            flying_monsters: 3,
+            flyingUnits: 0,
+            flyingMonsters: 3,
             frontline: 5,
             swordsmen: 4,
         }
@@ -127,8 +127,8 @@ export const races: IRace[] = [
         name: "The Empire",
         playstyle: "Hybrid",
         factions: [],
-        image_path: "assets/gifs/empire.webp",
-        race_military: {
+        imagePath: "assets/gifs/empire.webp",
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -136,8 +136,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         }
@@ -147,8 +147,8 @@ export const races: IRace[] = [
         name: "Greenskins",
         playstyle: "Rush",
         factions: [],
-        image_path: "assets/gifs/greenskins.webp",
-        race_military: {
+        imagePath: "assets/gifs/greenskins.webp",
+        raceMilitary: {
             archery: 2,
             antilarge: 3,
             artillery: 3,
@@ -156,8 +156,8 @@ export const races: IRace[] = [
             magic: 5,
             monsters: 5,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 1,
             swordsmen: 5,
         }
@@ -167,8 +167,8 @@ export const races: IRace[] = [
         name: "High Elves",
         playstyle: "Defensive",
         factions: [],
-        image_path: "assets/gifs/high_elves.webp",
-        race_military: {
+        imagePath: "assets/gifs/high_elves.webp",
+        raceMilitary: {
             archery: 5,
             antilarge: 5,
             artillery: 2,
@@ -176,8 +176,8 @@ export const races: IRace[] = [
             magic: 5,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 5,
+            flyingUnits: 0,
+            flyingMonsters: 5,
             frontline: 4,
             swordsmen: 5,
         }
@@ -187,8 +187,8 @@ export const races: IRace[] = [
         name: "Khorne",
         playstyle: "Rush",
         factions: [],
-        image_path: "assets/gifs/khorne.webp",
-        race_military: {
+        imagePath: "assets/gifs/khorne.webp",
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -196,8 +196,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         }
@@ -207,8 +207,8 @@ export const races: IRace[] = [
         name: "Kislev",
         playstyle: "Hybrid",
         factions: [],
-        image_path: "assets/gifs/kislev.webp",
-        race_military: {
+        imagePath: "assets/gifs/kislev.webp",
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -216,8 +216,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         }
@@ -227,8 +227,8 @@ export const races: IRace[] = [
         name: "Lizardmen",
         playstyle: "Hybrid",
         factions: [],
-        image_path: "assets/gifs/lizardmen.webp",
-        race_military: {
+        imagePath: "assets/gifs/lizardmen.webp",
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -236,8 +236,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         }
@@ -247,8 +247,8 @@ export const races: IRace[] = [
         name: "Norsca",
         playstyle: "Rush",
         factions: [],
-        image_path: "assets/gifs/norsca.webp",
-        race_military: {
+        imagePath: "assets/gifs/norsca.webp",
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -256,8 +256,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         }
@@ -267,8 +267,8 @@ export const races: IRace[] = [
         name: "Nurgle",
         playstyle: "Defensive",
         factions: [],
-        image_path: "assets/gifs/nurgle.webp",
-        race_military: {
+        imagePath: "assets/gifs/nurgle.webp",
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -276,8 +276,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         }
@@ -287,8 +287,8 @@ export const races: IRace[] = [
         name: "Ogre Kingdoms",
         playstyle: "Rush",
         factions: [],
-        image_path: "assets/gifs/ogre_kingdoms.webp",
-        race_military: {
+        imagePath: "assets/gifs/ogre_kingdoms.webp",
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -296,8 +296,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         }
@@ -307,8 +307,8 @@ export const races: IRace[] = [
         name: "Skaven",
         playstyle: "Defensive",
         factions: [],
-        image_path: "assets/gifs/skaven.webp",
-        race_military: {
+        imagePath: "assets/gifs/skaven.webp",
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -316,8 +316,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         }
@@ -327,8 +327,8 @@ export const races: IRace[] = [
         name: "Slaanesh",
         playstyle: "Rush",
         factions: [],
-        image_path: "assets/gifs/slaanesh.webp",
-        race_military: {
+        imagePath: "assets/gifs/slaanesh.webp",
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -336,8 +336,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         }
@@ -347,8 +347,8 @@ export const races: IRace[] = [
         name: "Tomb Kings",
         playstyle: "Defensive",
         factions: [],
-        image_path: "assets/gifs/tomb_kings.webp",
-        race_military: {
+        imagePath: "assets/gifs/tomb_kings.webp",
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -356,8 +356,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         }
@@ -367,8 +367,8 @@ export const races: IRace[] = [
         name: "Tzeentch",
         playstyle: "Defensive",
         factions: [],
-        image_path: "assets/gifs/tzeentch.webp",
-        race_military: {
+        imagePath: "assets/gifs/tzeentch.webp",
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -376,8 +376,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         }
@@ -387,8 +387,8 @@ export const races: IRace[] = [
         name: "Vampire Coast",
         playstyle: "Hybrid",
         factions: [],
-        image_path: "assets/gifs/vampire_coast.webp",
-        race_military: {
+        imagePath: "assets/gifs/vampire_coast.webp",
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -396,8 +396,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         }
@@ -407,8 +407,8 @@ export const races: IRace[] = [
         name: "Vampire Count",
         playstyle: "Hybrid",
         factions: [],
-        image_path: "assets/gifs/vampire_counts.webp",
-        race_military: {
+        imagePath: "assets/gifs/vampire_counts.webp",
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -416,8 +416,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         }
@@ -427,8 +427,8 @@ export const races: IRace[] = [
         name: "Warriors of Chaos",
         playstyle: "Rush",
         factions: [],
-        image_path: "assets/gifs/warriors_of_chaos.webp",
-        race_military: {
+        imagePath: "assets/gifs/warriors_of_chaos.webp",
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -436,8 +436,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         }
@@ -447,8 +447,8 @@ export const races: IRace[] = [
         name: "Wood Elves",
         playstyle: "Defensive",
         factions: [],
-        image_path: "assets/gifs/wood_elves.webp",
-        race_military: {
+        imagePath: "assets/gifs/wood_elves.webp",
+        raceMilitary: {
             archery: 0,
             antilarge: 0,
             artillery: 0,
@@ -456,8 +456,8 @@ export const races: IRace[] = [
             magic: 0,
             monsters: 0,
             missiles: 0,
-            flying_units: 0,
-            flying_monsters: 0,
+            flyingUnits: 0,
+            flyingMonsters: 0,
             frontline: 0,
             swordsmen: 0,
         }

@@ -1,4 +1,4 @@
-export interface IRace_military {
+export interface IRaceMilitaryStats {
   archery: number;
   antilarge: number;
   artillery: number;
@@ -6,8 +6,8 @@ export interface IRace_military {
   magic: number;
   monsters: number;
   missiles: number;
-  flying_units: number;
-  flying_monsters: number;
+  flyingUnits: number;
+  flyingMonsters: number;
   frontline: number;
   swordsmen: number;
 }

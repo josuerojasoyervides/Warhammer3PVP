@@ -1,10 +1,10 @@
-import { IGame_DLC } from "../models/game_dlc.interface";
-export const game_dlcs: IGame_DLC[] = [
+import { IGameDlc } from "../models/game_dlc.interface";
+export const game_dlcs: IGameDlc[] = [
     /* Warhammer 1 */
     /* Paid */
     {
         id: 1,
-        dlc_name: 'Chaos Warriors', 
+        dlcName: 'Chaos Warriors', 
         factions: [],
         date: new Date('2016-05-24'),
         type: "Race Pack",
@@ -12,7 +12,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 2,
-        dlc_name: 'Blood for the Blood God',
+        dlcName: 'Blood for the Blood God',
         factions: [],
         date: new Date('2016-06-30'),
         type: "Graphical effects",
@@ -20,7 +20,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 3,
-        dlc_name: 'Call of the Beastmen',
+        dlcName: 'Call of the Beastmen',
         factions: [],
         date: new Date('2016-07-28'),
         type: "Campaign Pack",
@@ -28,7 +28,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 4,
-        dlc_name: 'The Grim and the Grave',
+        dlcName: 'The Grim and the Grave',
         factions: [],
         date: new Date('2016-09-01'),
         type: "Lord Pack",
@@ -36,7 +36,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 5,
-        dlc_name: 'The King and the Warlord',
+        dlcName: 'The King and the Warlord',
         factions: [],
         date: new Date('2016-10-20'),
         type: "Lord Pack",
@@ -44,7 +44,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 6,
-        dlc_name: 'Realm of the Wood Elves',
+        dlcName: 'Realm of the Wood Elves',
         factions: [],
         date: new Date('2016-12-08'),
         type: "Lord Pack",
@@ -52,7 +52,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 7,
-        dlc_name: 'Norsca',
+        dlcName: 'Norsca',
         factions: [],
         date: new Date('2017-08-10'),
         type: "Race Pack",
@@ -61,7 +61,7 @@ export const game_dlcs: IGame_DLC[] = [
     /* Free */
     {
         id: 8,
-        dlc_name: 'Blood Knights',
+        dlcName: 'Blood Knights',
         factions: [],
         date: new Date('2016-06-30'),
         type: "Unit Update",
@@ -69,7 +69,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 9,
-        dlc_name: 'Amber Wizard',
+        dlcName: 'Amber Wizard',
         factions: [],
         date: new Date('2016-07-28'),
         type: "Lord Update",
@@ -77,7 +77,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 10,
-        dlc_name: 'Vlad von Carstein',
+        dlcName: 'Vlad von Carstein',
         factions: [],
         date: new Date('2016-09-09'),
         type: "Lord Update",
@@ -85,7 +85,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 11,
-        dlc_name: 'Wurrzag',
+        dlcName: 'Wurrzag',
         factions: [],
         date: new Date('2016-10-20'),
         type: "Lord Update",
@@ -93,7 +93,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 12,
-        dlc_name: 'New Warriors of Chaos units',
+        dlcName: 'New Warriors of Chaos units',
         factions: [],
         date: new Date('2016-10-20'),
         type: "Unit Update",
@@ -101,7 +101,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 13,
-        dlc_name: 'Grey Wizards',
+        dlcName: 'Grey Wizards',
         factions: [],
         date: new Date('2016-12-08'),
         type: "Lord Update",
@@ -109,7 +109,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 14,
-        dlc_name: 'Jade Wizard',
+        dlcName: 'Jade Wizard',
         factions: [],
         date: new Date('2016-12-08'),
         type: "Lord Update",
@@ -117,7 +117,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 15,
-        dlc_name: 'Morghur and Harpies',
+        dlcName: 'Morghur and Harpies',
         factions: [],
         date: new Date('2016-12-08'),
         type: "Lord Update",
@@ -125,7 +125,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 16,
-        dlc_name: 'Grombrindal',
+        dlcName: 'Grombrindal',
         factions: [],
         date: new Date('2017-01-19'),
         type: "Lord Update",
@@ -133,7 +133,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 17,
-        dlc_name: 'Bretonia',
+        dlcName: 'Bretonia',
         factions: [],
         date: new Date('2017-02-28'),
         type: "Race Update",
@@ -141,7 +141,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 18,
-        dlc_name: 'Isabella von Carstein',
+        dlcName: 'Isabella von Carstein',
         factions: [],
         date: new Date('2017-02-28'),
         type: "Lord Update",
@@ -149,7 +149,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 19,
-        dlc_name: 'Krell An Old Friend',
+        dlcName: 'Krell An Old Friend',
         factions: [],
         date: new Date('2017-07-01'),
         type: "Lord Update",
@@ -157,7 +157,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 20,
-        dlc_name: '30th Birthday Regiments of Renown',
+        dlcName: '30th Birthday Regiments of Renown',
         factions: [],
         date: new Date('2017-08-10'),
         type: "RoR Update",
@@ -165,7 +165,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 21,
-        dlc_name: 'The Foundation Update',
+        dlcName: 'The Foundation Update',
         factions: [],
         date: new Date('2017-08-10'),
         type: "Skills Update",
@@ -176,7 +176,7 @@ export const game_dlcs: IGame_DLC[] = [
     /* Paid */
     {
         id: 22,
-        dlc_name: "Blood for the Blood God II",
+        dlcName: "Blood for the Blood God II",
         factions: [],
         date: new Date('2017-10-26'),
         type: "Graphical effects",
@@ -184,7 +184,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 23,
-        dlc_name: "Rise of the Tomb Kings",
+        dlcName: "Rise of the Tomb Kings",
         factions: [],
         date: new Date('2018-01-24'),
         type: "Campaign Pack",
@@ -192,7 +192,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 24,
-        dlc_name: "The Queen and the Crone",
+        dlcName: "The Queen and the Crone",
         factions: [],
         date: new Date('2018-05-31'),
         type: "Lord Pack",
@@ -200,7 +200,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 25,
-        dlc_name: "Curse of the Vampire Coast",
+        dlcName: "Curse of the Vampire Coast",
         factions: [],
         date: new Date('2018-11-08'),
         type: "Campaign Pack",
@@ -208,7 +208,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 26,
-        dlc_name: "The Prophet and the Warlock",
+        dlcName: "The Prophet and the Warlock",
         factions: [],
         date: new Date('2019-04-17'),
         type: "Lord Pack",
@@ -216,7 +216,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 27,
-        dlc_name: "The Hunter and the Beast",
+        dlcName: "The Hunter and the Beast",
         factions: [],
         date: new Date('2019-09-11'),
         type: "Lord Pack",
@@ -224,7 +224,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 28,
-        dlc_name: "The Shadow and the Blade",
+        dlcName: "The Shadow and the Blade",
         factions: [],
         date: new Date('2019-12-12'),
         type: "Lord Pack",
@@ -232,7 +232,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 29,
-        dlc_name: "The Warden and the Paunch",
+        dlcName: "The Warden and the Paunch",
         factions: [],
         date: new Date('2020-05-21'),
         type: "Lord Pack",
@@ -240,7 +240,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 30,
-        dlc_name: "The Twisted and the Twilight",
+        dlcName: "The Twisted and the Twilight",
         factions: [],
         date: new Date('2020-12-03'),
         type: "Lord Pack",
@@ -248,7 +248,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 31,
-        dlc_name: "The Silence & The Fury",
+        dlcName: "The Silence & The Fury",
         factions: [],
         date: new Date('2021-07-14'),
         type: "Lord Pack",
@@ -257,7 +257,7 @@ export const game_dlcs: IGame_DLC[] = [
     /* Free */
     {
         id: 32,
-        dlc_name: "Mortal Empires",
+        dlcName: "Mortal Empires",
         factions: [],
         date: new Date('2017-10-26'),
         type: "Mortal Empires Update",
@@ -265,7 +265,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 33,
-        dlc_name: "The Laboratory",
+        dlcName: "The Laboratory",
         factions: [],
         date: new Date('2017-12-14'),
         type: "The Reprisal Update",
@@ -273,7 +273,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 34,
-        dlc_name: "Tretch Craventail",
+        dlcName: "Tretch Craventail",
         factions: [],
         date: new Date('2018-01-24'),
         type: "Tomb Kings Update",
@@ -281,7 +281,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 35,
-        dlc_name: "Steps of Isha",
+        dlcName: "Steps of Isha",
         factions: [],
         date: new Date('2018-02-14'),
         type: "Map Pack",
@@ -289,7 +289,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 36,
-        dlc_name: "Alith Anar",
+        dlcName: "Alith Anar",
         factions: [],
         date: new Date('2018-05-31'),
         type: "Resurgent Update",
@@ -297,7 +297,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 37,
-        dlc_name: "Resurgent Update",
+        dlcName: "Resurgent Update",
         factions: [],
         date: new Date('2018-05-31'),
         type: "Resurgent Update",
@@ -305,7 +305,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 38,
-        dlc_name: "Sword of Khaine",
+        dlcName: "Sword of Khaine",
         factions: [],
         date: new Date('2018-05-31'),
         type: "Resurgent Update",
@@ -313,7 +313,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 39,
-        dlc_name: "Bone Giant",
+        dlcName: "Bone Giant",
         factions: [],
         date: new Date('2018-05-31'),
         type: "Resurgent Update",
@@ -321,7 +321,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 40,
-        dlc_name: "Kharibdyss",
+        dlcName: "Kharibdyss",
         factions: [],
         date: new Date('2018-06-21'),
         type: "The Kharibdyss Update",
@@ -329,7 +329,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 41,
-        dlc_name: "Lokhir Fellheart",
+        dlcName: "Lokhir Fellheart",
         factions: [],
         date: new Date('2018-11-08'),
         type: "Aye-Aye! Patch",
@@ -337,7 +337,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 42,
-        dlc_name: "Bloodlines",
+        dlcName: "Bloodlines",
         factions: [],
         date: new Date('2018-11-08'),
         type: "Aye-Aye! Patch",
@@ -345,7 +345,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 43,
-        dlc_name: "Tiktaq'to",
+        dlcName: "Tiktaq'to",
         factions: [],
         date: new Date('2019-04-17'),
         type: "Doomsayers Update",
@@ -353,7 +353,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 44,
-        dlc_name: "Bretonnia updates",
+        dlcName: "Bretonnia updates",
         factions: [],
         date: new Date('2019-04-17'),
         type: "Doomsayers Update",
@@ -361,7 +361,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 45,
-        dlc_name: "Lord Kroak",
+        dlcName: "Lord Kroak",
         factions: [],
         date: new Date('2019-04-17'),
         type: "Doomsayers Update",
@@ -369,7 +369,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 46,
-        dlc_name: "Amethyst Wizard",
+        dlcName: "Amethyst Wizard",
         factions: [],
         date: new Date('2019-05-16'),
         type: "The Amethyst Update",
@@ -377,7 +377,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 47,
-        dlc_name: "Gor-Rok",
+        dlcName: "Gor-Rok",
         factions: [],
         date: new Date('2019-09-11'),
         type: "The Empire Undivided Update",
@@ -385,7 +385,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 48,
-        dlc_name: "Empire Rework",
+        dlcName: "Empire Rework",
         factions: [],
         date: new Date('2019-09-11'),
         type: "The Empire Undivided Update",
@@ -393,7 +393,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 49,
-        dlc_name: "Gotrek and Felix",
+        dlcName: "Gotrek and Felix",
         factions: [],
         date: new Date('2019-09-11'),
         type: "The Empire Undivided Update",
@@ -401,7 +401,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 50,
-        dlc_name: "Repanse de Lyonesse",
+        dlcName: "Repanse de Lyonesse",
         factions: [],
         date: new Date('2019-12-12'),
         type: "The Potion of Speed Update",
@@ -409,7 +409,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 51,
-        dlc_name: "Imrik",
+        dlcName: "Imrik",
         factions: [],
         date: new Date('2020-05-21'),
         type: "The Total Waaagh! Update",
@@ -417,7 +417,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 52,
-        dlc_name: "Catchweb Spidershrine",
+        dlcName: "Catchweb Spidershrine",
         factions: [],
         date: new Date('2020-05-21'),
         type: "The Total Waaagh! Update",
@@ -425,7 +425,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 53,
-        dlc_name: "Call to WAAAGH!",
+        dlcName: "Call to WAAAGH!",
         factions: [],
         date: new Date('2020-05-21'),
         type: "The Total Waaagh! Update",
@@ -433,7 +433,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 54,
-        dlc_name: "Black Orc Big Boss",
+        dlcName: "Black Orc Big Boss",
         factions: [],
         date: new Date('2020-05-28'),
         type: "The Total Waaagh! Update",
@@ -441,7 +441,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 55,
-        dlc_name: "Drycha",
+        dlcName: "Drycha",
         factions: [],
         date: new Date('2020-12-03'),
         type: "Asrai Resurgent Update",
@@ -449,7 +449,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 56,
-        dlc_name: "Chieftain",
+        dlcName: "Chieftain",
         factions: [],
         date: new Date('2020-12-03'),
         type: "Asrai Resurgent Update",
@@ -457,7 +457,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 57,
-        dlc_name: "Glade Captain",
+        dlcName: "Glade Captain",
         factions: [],
         date: new Date('2020-12-03'),
         type: "Asrai Resurgent Update",
@@ -465,7 +465,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 58,
-        dlc_name: "Rakarth",
+        dlcName: "Rakarth",
         factions: [],
         date: new Date('2021-03-18'),
         type: "The Rakarth Update",
@@ -473,7 +473,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 59,
-        dlc_name: "Great Bray-Shaman",
+        dlcName: "Great Bray-Shaman",
         factions: [],
         date: new Date('2021-07-14'),
         type: "The Hammers & Herdstones update",
@@ -481,7 +481,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 60,
-        dlc_name: "Thorek Ironbrow",
+        dlcName: "Thorek Ironbrow",
         factions: [],
         date: new Date('2021-07-14'),
         type: "The Hammers & Herdstones update",
@@ -489,7 +489,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 61,
-        dlc_name: "Ogre Mercenaries",
+        dlcName: "Ogre Mercenaries",
         factions: [],
         date: new Date('2021-07-14'),
         type: "The Hammers & Herdstones update",
@@ -500,7 +500,7 @@ export const game_dlcs: IGame_DLC[] = [
     /* Paid */
     {
         id: 62,
-        dlc_name: "Ogre Kingdoms",
+        dlcName: "Ogre Kingdoms",
         factions: [],
         date: new Date('2022-02-17'),
         type: "Race Pack",
@@ -508,7 +508,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 63,
-        dlc_name: "Blood for the Blood God III",
+        dlcName: "Blood for the Blood God III",
         factions: [],
         date: new Date('2022-08-23'),
         type: "Graphical effects",
@@ -516,7 +516,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 64,
-        dlc_name: "Champions of Chaos",
+        dlcName: "Champions of Chaos",
         factions: [],
         date: new Date('2022-08-23'),
         type: "Lord Pack",
@@ -524,7 +524,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 65,
-        dlc_name: "Forge of the Chaos Dwarfs",
+        dlcName: "Forge of the Chaos Dwarfs",
         factions: [],
         date: new Date('2023-04-13'),
         type: "Race Pack",
@@ -532,7 +532,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 66,
-        dlc_name: "Shadows of Change",
+        dlcName: "Shadows of Change",
         factions: [],
         date: new Date('2023-08-31'),
         type: "Lord Pack",
@@ -540,7 +540,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 67,
-        dlc_name: "Thrones of Decay",
+        dlcName: "Thrones of Decay",
         factions: [],
         date: new Date('2024-04-14'),
         type: "Lord Pack",
@@ -548,7 +548,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 68,
-        dlc_name: "TBA",
+        dlcName: "TBA",
         factions: [],
         date: new Date('2024-08-31'),
         type: "Lord Pack",
@@ -558,7 +558,7 @@ export const game_dlcs: IGame_DLC[] = [
     /* Free */
     {
         id: 69,
-        dlc_name: "Free-LC Regiments of Renown I",
+        dlcName: "Free-LC Regiments of Renown I",
         factions: [],
         date: new Date('2022-05-17'),
         type: "New RoR",
@@ -566,7 +566,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 70,
-        dlc_name: "Free-LC Regiments of Renown II",
+        dlcName: "Free-LC Regiments of Renown II",
         factions: [],
         date: new Date('2022-06-30'),
         type: "New RoR",
@@ -574,7 +574,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 71,
-        dlc_name: "Immortal Empires",
+        dlcName: "Immortal Empires",
         factions: [],
         date: new Date('2022-08-23'),
         type: "New campaign, New multiplayer factions",
@@ -582,7 +582,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 72,
-        dlc_name: "Marked Chaos Warriors",
+        dlcName: "Marked Chaos Warriors",
         factions: [],
         date: new Date('2022-08-23'),
         type: "New Units",
@@ -590,7 +590,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 73,
-        dlc_name: "Shadow Legion / Be'lakor",
+        dlcName: "Shadow Legion / Be'lakor",
         factions: [],
         date: new Date('2022-08-23'),
         type: "",
@@ -598,7 +598,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 74,
-        dlc_name: "Warriors of Chaos rework",
+        dlcName: "Warriors of Chaos rework",
         factions: [],
         date: new Date('2022-08-23'),
         type: "",
@@ -606,7 +606,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 75,
-        dlc_name: "Free-LC Regiments of Renown III",
+        dlcName: "Free-LC Regiments of Renown III",
         factions: [],
         date: new Date('2022-10-19'),
         type: "New RoR",
@@ -614,7 +614,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 76,
-        dlc_name: "Ulrika Magdova",
+        dlcName: "Ulrika Magdova",
         factions: [],
         date: new Date('2023-04-13'),
         type: "",
@@ -622,7 +622,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 77,
-        dlc_name: "Mirror of Madness",
+        dlcName: "Mirror of Madness",
         factions: [],
         date: new Date('2023-04-13'),
         type: "New game mode",
@@ -630,7 +630,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 78,
-        dlc_name: "Free-LC Regiments of Renown IV",
+        dlcName: "Free-LC Regiments of Renown IV",
         factions: [],
         date: new Date('2023-05-25'),
         type: "New RoR",
@@ -638,7 +638,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 79,
-        dlc_name: "Harald Hammerstorm",
+        dlcName: "Harald Hammerstorm",
         factions: [],
         date: new Date('2023-08-31'),
         type: "New Legendary hero",
@@ -646,7 +646,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 80,
-        dlc_name: "Aekold Helbrass",
+        dlcName: "Aekold Helbrass",
         factions: [],
         date: new Date('2023-08-31'),
         type: "New Legendary hero",
@@ -654,7 +654,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 81,
-        dlc_name: "TBA",
+        dlcName: "TBA",
         factions: [],
         date: new Date('2024-04-13'),
         type: "New Legendary hero",
@@ -662,7 +662,7 @@ export const game_dlcs: IGame_DLC[] = [
     },
     {
         id: 82,
-        dlc_name: "TBA",
+        dlcName: "TBA",
         factions: [],
         date: new Date('2024-08-23'),
         type: "New Legendary hero",

@@ -1,21 +1,28 @@
-<div class="left-bg" #left_bg>
-</div>
-<div class="right-bg" #right_bg>
-</div>
+<div class="left-bg" #left_bg></div>
+<div class="right-bg" #right_bg></div>
 <div class="box">
     <div class="title">
-            <h1>WH3 PvP Guide 
-            </h1>
+        <h1>WH3 PvP Guide</h1>
+        <span nz-tooltip nzTooltipTitle="
+            0 of 5: lacks of that unit 
+            1 of 5: so worthless as it they don't have
+            2 of 5: weak units
+            3 of 5: gets job done
+            4 of 5: excels
+            5 of 5: MVP"
+        nzTooltipPlacement="bottom" >
+            <span nz-icon nzType="info-circle" nzTheme="outline"></span>
+        </span>
     </div>
     <div class="selectors">
         <div class="left">
             <span></span>
-            <app-select-box [races]="racesArray" (selected_race)="selected_race_left($event)"></app-select-box>
+            <app-select-box [races]="racesArray" (selected_race)="selectRace($event, this.racesArray, true)"></app-select-box>
             <span></span>
         </div>
         <div class="right">
             <span></span>
-            <app-select-box [races]="racesArray" (selected_race)="selected_race_right($event)"></app-select-box>
+            <app-select-box [races]="racesArray" (selected_race)="selectRace($event, this.racesArray, false)"></app-select-box>
             <span></span>
         </div>
     </div>
@@ -23,9 +30,11 @@
         <div class="left">
             <span></span>
             <span>
-                <div *ngIf="left_race">
-                    <div *ngFor="let item of (left_race.race_military | keyvalue) | appSortBy" class="individual">
-                        <h3 [ngStyle]="{color: item.value | appStatColor}">{{item.key | titlecase}}: {{item.value}}</h3>
+                <div *ngIf="leftRace">
+                    <div *ngFor="let item of leftRace.raceMilitary | keyvalue | appSortBy" class="individual">
+                        <h3 [ngStyle]="{ color: item.value | appStatColor }">
+                            {{ item.key | titlecase }}: {{ item.value }}
+                        </h3>
                     </div>
                 </div>
             </span>
@@ -34,9 +43,11 @@
         <div class="right">
             <span></span>
             <span>
-                <div *ngIf="right_race">
-                    <div *ngFor="let item of (right_race.race_military | keyvalue) | appSortBy" class="individual">
-                        <h3 [ngStyle]="{color: item.value | appStatColor}">{{item.key | titlecase}}: {{item.value}}</h3>
+                <div *ngIf="rightRace">
+                    <div *ngFor="let item of rightRace.raceMilitary | keyvalue | appSortBy" class="individual">
+                        <h3 [ngStyle]="{ color: item.value | appStatColor }">
+                            {{ item.key | titlecase }}: {{ item.value }}
+                        </h3>
                     </div>
                 </div>
             </span>
