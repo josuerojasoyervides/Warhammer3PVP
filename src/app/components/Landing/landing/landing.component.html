@@ -1,34 +1,62 @@
-<div class="left-bg" #left_bg></div>
-<div class="right-bg" #right_bg></div>
-<div class="box">
-    <div class="title">
-        <h1>WH3 PvP Guide</h1>
-        <span nz-tooltip nzTooltipTitle="
-            0 of 5: lacks of that unit 
-            1 of 5: so worthless as it they don't have
-            2 of 5: weak units
-            3 of 5: gets job done
-            4 of 5: excels
-            5 of 5: MVP"
-        nzTooltipPlacement="bottom" >
-            <span nz-icon nzType="info-circle" nzTheme="outline"></span>
-        </span>
+<div class="background left top" #left_bg></div>
+<div class="background right bottom" #right_bg></div>
+<div class="container">
+    <div class="box" *ngIf="!isMobileView()">
+        <div class="title">
+            <h1>WH3 PvP Guide</h1>
+        </div>
+        <div class="selectors">
+            <div class="left selector-top">
+                <span></span>
+                <app-select-box [races]="racesArray" (selected_race)="selectRace($event, this.racesArray, true)"></app-select-box>
+                <app-icon-hover [text]="raceHover"></app-icon-hover>
+            </div>
+            <div class="right selector-bottom">
+                <span></span>
+                <app-select-box [races]="racesArray" (selected_race)="selectRace($event, this.racesArray, false)"></app-select-box>
+                <span></span>
+            </div>
+        </div>
+        <div class="stats">
+            <div class="left stats-top">
+                <span></span>
+                <span>
+                    <div *ngIf="leftRace">
+                        <div *ngFor="let item of leftRace.raceMilitary | keyvalue | appSortBy" class="individual">
+                            <h3 [ngStyle]="{ color: item.value | appStatColor }">
+                                {{ item.key | titlecase }}: {{ item.value }}
+                            </h3>
+                        </div>
+                    </div>
+                </span>
+                <span></span>
+            </div>
+            <div class="right stats-bottom">
+                <span></span>
+                <span>
+                    <div *ngIf="rightRace">
+                        <div *ngFor="let item of rightRace.raceMilitary | keyvalue | appSortBy" class="individual">
+                            <h3 [ngStyle]="{ color: item.value | appStatColor }">
+                                {{ item.key | titlecase }}: {{ item.value }}
+                            </h3>
+                        </div>
+                    </div>
+                </span>
+                <span></span>
+            </div>
+        </div>
     </div>
-    <div class="selectors">
-        <div class="left">
-            <span></span>
+    <div class="box" *ngIf="isMobileView()">
+        <div class="title">
+            <h1>WH3 PvP Guide</h1>
+        </div>
+        <div class="selector-top">
             <app-select-box [races]="racesArray" (selected_race)="selectRace($event, this.racesArray, true)"></app-select-box>
-            <span></span>
         </div>
-        <div class="right">
-            <span></span>
+        <div class="selector-bottom">
             <app-select-box [races]="racesArray" (selected_race)="selectRace($event, this.racesArray, false)"></app-select-box>
-            <span></span>
         </div>
-    </div>
-    <div class="stats">
-        <div class="left">
-            <span></span>
+        <div class="stats-top">
             <span>
                 <div *ngIf="leftRace">
                     <div *ngFor="let item of leftRace.raceMilitary | keyvalue | appSortBy" class="individual">
@@ -38,10 +66,8 @@
                     </div>
                 </div>
             </span>
-            <span></span>
         </div>
-        <div class="right">
-            <span></span>
+        <div class="stats-bottom">
             <span>
                 <div *ngIf="rightRace">
                     <div *ngFor="let item of rightRace.raceMilitary | keyvalue | appSortBy" class="individual">
@@ -51,7 +77,6 @@
                     </div>
                 </div>
             </span>
-            <span></span>
         </div>
     </div>
 </div>
